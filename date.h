@@ -6,4 +6,6 @@ typedef struct {
 	int year;
 } Date;
 
-void setDate(Date* date);
+void initDate(Date* date);
+
+void printDate(Date* date);

@@ -1,10 +1,10 @@
 #define _CRT_SECURE_NO_WANINGS
 #include <stdio.h>
-#include "date.h"
+#include "product.h"
 
 int main()
 {
-	Date d;
-	setDate(&d);
-	printf("%d/%d/%d", d.day, d.month, d.year);
+	Product p;
+	initProduct(&p);
+	printProduct(&p);
 }

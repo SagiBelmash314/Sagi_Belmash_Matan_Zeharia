@@ -16,7 +16,7 @@ void dateStrToInt(const char* date, int* day, int* month, int* year)
 
 int checkDateValidity(const int day, const int month, const int year)
 {
-	int daysInMonth[12] = { 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31 };
+	const int daysInMonth[12] = { 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31 };
 	if (year < 2024 || year > 2030)
 	{
 		printf("\nYear should be between 2024-2030\n\n");
@@ -35,16 +35,16 @@ int checkDateValidity(const int day, const int month, const int year)
 	return 1;
 }
 
-int checkInputValidity(const char* str)
+int checkInputValidity(const char* date)
 {
-	if (strlen(str) < MAX_LEN)
+	if (strlen(date) < MAX_LEN)
 	{
 		printf("\nInput is too short\n\n");
 		return 0;
 	}
 	for (int i = 0; i < MAX_LEN; i++)
 	{
-		if (str[i] - '0' < 0 || str[i] - '0' > 9)
+		if (date[i] - '0' < 0 || date[i] - '0' > 9)
 		{
 			printf("\nAll characters should be digits\n\n");
 			return 0;
@@ -53,7 +53,7 @@ int checkInputValidity(const char* str)
 	return 1;
 }
 
-void setDate(Date* date)
+void initDate(Date* d)
 {
 	int day, month, year;
 	char temp[MAX_LEN + 1] = { 0 };
@@ -67,7 +67,13 @@ void setDate(Date* date)
 			while ((c = getchar()) != '\n' && c != EOF);
 		}
 	} while (!checkInputValidity(temp) || !checkDateValidity(day, month, year));
-	date->day = day;
-	date->month = month;
-	date->year = year;
+	d->day = day;
+	d->month = month;
+	d->year = year;
 }
+
+void printDate(Date* d)
+{
+	printf("%d/%d/%d", d->day, d->month, d->year);
+}
+
