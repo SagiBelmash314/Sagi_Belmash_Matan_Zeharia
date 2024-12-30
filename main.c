@@ -6,5 +6,5 @@ int main()
 {
 	Product p;
 	initProduct(&p);
-	printProduct(&p);
+	printProduct(p);
 }

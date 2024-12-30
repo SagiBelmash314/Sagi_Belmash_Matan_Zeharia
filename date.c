@@ -74,6 +74,6 @@ void initDate(Date* d)
 
 void printDate(Date* d)
 {
-	printf("%d/%d/%d", d->day, d->month, d->year);
+	printf("%d-%d-%d\n", d->day, d->month, d->year);
 }
 

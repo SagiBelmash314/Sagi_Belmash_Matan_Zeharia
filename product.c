@@ -76,29 +76,36 @@ int getAmountFromUser()
 	return amount;
 }
 
-void initProduct(Product* p)
+int initProduct(Product* p)
 {
 	getNameFromUser(p->name);
 	p->type = getTypeFromUser();
 	p->code[0] = typeAbr[p->type][0];
 	p->code[1] = typeAbr[p->type][1];
+	srand(time(NULL));
 	for (int i = 2; i < CODE_LEN; i++)
 	{
-		srand(time(NULL));
 		p->code[i] = rand() % 10 + '0';
 	}
 	p->price = getPriceFromUser();
 	p->amount = getAmountFromUser();
 	
 	Date* d = (Date*)malloc(sizeof(d));
+	if (!d)
+		return 0;
 	initDate(d);
 	p->expDate = d;
 }
 
-void printProduct(const Product* p)
+void printProduct(const Product p)
 {
-	printf("\nProduct name: %s\nBarcode: %s\nType: %s\nPrice: %.2f\nAmount in stock: %d\nExpiration date: ", p->name, p->code, typeTitle[p->type], p->price, p->amount);
-	printDate(p->expDate);
+	printf("\nProduct name: %s\nBarcode: %s\nType: %s\nPrice: %.2f\nAmount in stock: %d\nExpiration date: ", p.name, p.code, typeTitle[p.type], p.price, p.amount);
+	printDate(p.expDate);
+}
+
+void freeProduct(Product* p)
+{
+	free(p->expDate);
 }
 
 
