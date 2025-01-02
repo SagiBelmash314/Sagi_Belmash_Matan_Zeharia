@@ -1,0 +1,7 @@
+﻿  date.c
+C:\Users\sagib\source\repos\Sagi_Belmash_Matan_Zeharia\date.c(14,32): warning C4244: '+=': conversion from 'double' to 'int', possible loss of data
+C:\Users\sagib\source\repos\Sagi_Belmash_Matan_Zeharia\date.c(32,10): warning C4129: 'D': unrecognized character escape sequence
+C:\Users\sagib\source\repos\Sagi_Belmash_Matan_Zeharia\date.c(40,6): warning C4013: 'strlen' undefined; assuming extern returning int
+C:\Users\sagib\source\repos\Sagi_Belmash_Matan_Zeharia\date.c(66,7): warning C4013: 'strchr' undefined; assuming extern returning int
+C:\Users\sagib\source\repos\Sagi_Belmash_Matan_Zeharia\date.c(66,26): warning C4047: '==': 'int' differs in levels of indirection from 'void *'
+  Sagi_Belmash_Matan_Zeharia.vcxproj -> C:\Users\sagib\Source\Repos\Sagi_Belmash_Matan_Zeharia\x64\Debug\Sagi_Belmash_Matan_Zeharia.exe
