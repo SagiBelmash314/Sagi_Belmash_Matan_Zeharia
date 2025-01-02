@@ -97,10 +97,10 @@ int initProduct(Product* p)
 	p->expDate = d;
 }
 
-void printProduct(const Product p)
+void printProduct(const Product* p)
 {
-	printf("\nProduct name: %s\nBarcode: %s\nType: %s\nPrice: %.2f\nAmount in stock: %d\nExpiration date: ", p.name, p.code, typeTitle[p.type], p.price, p.amount);
-	printDate(p.expDate);
+	printf("\nProduct name: %s\nBarcode: %s\nType: %s\nPrice: %.2f\nAmount in stock: %d\nExpiration date: ", p->name, p->code, typeTitle[p->type], p->price, p->amount);
+	printDate(p->expDate);
 }
 
 void freeProduct(Product* p)

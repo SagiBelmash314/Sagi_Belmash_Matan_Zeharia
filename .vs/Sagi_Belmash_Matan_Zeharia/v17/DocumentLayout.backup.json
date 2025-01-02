@@ -42,8 +42,7 @@
               "RelativeToolTip": "product.h",
               "ViewState": "AgIAAA8AAAAAAAAAAAAAABgAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-12-26T10:31:45.282Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-26T10:31:45.282Z"
             },
             {
               "$type": "Document",
@@ -53,7 +52,7 @@
               "RelativeDocumentMoniker": "product.c",
               "ToolTip": "C:\\Users\\sagib\\source\\repos\\Sagi_Belmash_Matan_Zeharia\\product.c",
               "RelativeToolTip": "product.c",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE0AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAE0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2024-12-26T10:31:04.994Z",
               "EditorCaption": ""
@@ -68,8 +67,7 @@
               "RelativeToolTip": "date.c",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAEkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2024-12-26T15:13:19.225Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-26T15:13:19.225Z"
             },
             {
               "$type": "Document",
@@ -81,8 +79,7 @@
               "RelativeToolTip": "main.c",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2024-12-26T09:28:44.772Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-26T09:28:44.772Z"
             }
           ]
         }

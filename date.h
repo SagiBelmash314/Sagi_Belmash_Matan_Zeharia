@@ -7,5 +7,4 @@ typedef struct {
 } Date;
 
 void initDate(Date* date);
-
 void printDate(Date* date);

@@ -19,7 +19,5 @@ typedef struct
 } Product;
 
 int initProduct(Product* p);
-
-void printProduct(const Product p);
-
+void printProduct(const Product* p);
 void freeProduct(Product* p);
