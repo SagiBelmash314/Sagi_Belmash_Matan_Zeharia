@@ -1,0 +1,12 @@
+﻿  Customer.c
+C:\Users\Matni\source\repos\Sagi_Belmash_Matan_Zeharia_1\Customer.c(11,17): warning C4013: 'calloc' undefined; assuming extern returning int
+C:\Users\Matni\source\repos\Sagi_Belmash_Matan_Zeharia_1\Customer.c(11,10): warning C4312: 'type cast': conversion from 'int' to 'char *' of greater size
+C:\Users\Matni\source\repos\Sagi_Belmash_Matan_Zeharia_1\Customer.c(12,15): warning C4312: 'type cast': conversion from 'int' to 'char *' of greater size
+C:\Users\Matni\source\repos\Sagi_Belmash_Matan_Zeharia_1\Customer.c(19,18): warning C4013: 'safeRealloc' undefined; assuming extern returning int
+C:\Users\Matni\source\repos\Sagi_Belmash_Matan_Zeharia_1\Customer.c(19,11): warning C4312: 'type cast': conversion from 'int' to 'char *' of greater size
+C:\Users\Matni\source\repos\Sagi_Belmash_Matan_Zeharia_1\Customer.c(24,10): warning C4312: 'type cast': conversion from 'int' to 'char *' of greater size
+C:\Users\Matni\source\repos\Sagi_Belmash_Matan_Zeharia_1\Customer.c(23,7): warning C4047: '=': 'char' differs in levels of indirection from 'char *'
+C:\Users\Matni\source\repos\Sagi_Belmash_Matan_Zeharia_1\Customer.c(33,10): warning C4047: 'function': 'char *' differs in levels of indirection from 'char'
+C:\Users\Matni\source\repos\Sagi_Belmash_Matan_Zeharia_1\Customer.c(33,10): warning C4024: 'setName': different types for formal and actual parameter 1
+C:\Users\Matni\source\repos\Sagi_Belmash_Matan_Zeharia_1\Customer.c(32,1): error C4700: uninitialized local variable 'firstname' used
+C:\Users\Matni\source\repos\Sagi_Belmash_Matan_Zeharia_1\Customer.c(33,1): error C4700: uninitialized local variable 'lastName' used

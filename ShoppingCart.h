@@ -7,5 +7,5 @@ typedef struct {
 }ShoppingCart;
 
 void initCart(ShoppingCart* cart);
-void addItem(ShoppingItem * item, ShoppingCart * cart);
+void addItem(ShoppingItem** item, ShoppingCart * cart);
 int calculateTotal(ShoppingCart * cart);
