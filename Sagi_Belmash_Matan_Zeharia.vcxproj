@@ -135,6 +135,7 @@
     <ClInclude Include="shoppingItem.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Customer.c" />
     <ClCompile Include="customer.c" />
     <ClCompile Include="date.c" />
     <ClCompile Include="general.c" />

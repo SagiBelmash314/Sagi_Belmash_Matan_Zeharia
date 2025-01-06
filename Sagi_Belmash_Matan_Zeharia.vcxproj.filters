@@ -33,6 +33,18 @@
     <ClInclude Include="product.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Customer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="General.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ShoppingCart.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ShoppingItem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.c">
@@ -54,6 +66,18 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="product.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Customer.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="General.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ShoppingCart.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ShoppingItem.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
