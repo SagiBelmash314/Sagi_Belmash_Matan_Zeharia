@@ -1,4 +1,4 @@
-#include "ShoppingCart.h"
+#include "shoppingCart.h"
 
 void initCart(ShoppingCart* cart) {
 	cart->itemList = malloc(sizeof(cart));

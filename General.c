@@ -1,4 +1,3 @@
-#define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 
 void* safeRealloc(void* base, size_t newByteCount) {

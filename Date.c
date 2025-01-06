@@ -1,7 +1,7 @@
-#define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 #include <math.h>
-#include "Date.h"
+#include "date.h"
+#include "general.h"
 #define MAX_LEN 8
 
 // Translates the string form of date to day, month and year in int format
@@ -63,9 +63,7 @@ void initDate(Date* d)
 		puts("Enter the desired date by the the format ddmmyyyy (the year should be between 2024-2030):");
 		fgets(temp, MAX_LEN + 1, stdin);
 		dateStrToInt(temp, &day, &month, &year);
-		if (strchr(temp, '\n') == NULL) {
-			while ((c = getchar()) != '\n' && c != EOF);
-		}
+		clearBuffer(temp);
 	} while (!checkInputValidity(temp) || !checkDateValidity(day, month, year));
 	d->day = day;
 	d->month = month;

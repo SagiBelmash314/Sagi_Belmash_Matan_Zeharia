@@ -1,27 +1,22 @@
-#define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 #include <stdbool.h>
 #include <stdlib.h>
 #include <time.h>
-#include "Date.h"
-#include "Product.h"
-#include "General.h"
+#include "date.h"
+#include "product.h"
+#include "general.h"
 
-const char* typeTitle[NofTypes] = { "Shelf", "Frozen", "Fridge", "FruitVegtable" };
+const char* typeTilte[NofTypes] = { "Shelf", "Frozen", "Fridge", "FruitVegtable" };
 const char* typeAbr[NofTypes] = { "SH", "FZ", "FR", "FV" };
 
-getNameFromUser(char* name)
+void getNameFromUser(char* name)
 {
 	do
 	{
 		puts("Please enter the product's name:");
 		fgets(name, MAX_NAME_LEN + 1, stdin);
 		clearBuffer(name);
-		for (int i = 0; i < MAX_NAME_LEN; i++)
-			if (name[i] == '\n')
-				name[i] = '\0';
 	} while (!strlen(name));
-
 }
 
 Type getTypeFromUser()
@@ -30,9 +25,9 @@ Type getTypeFromUser()
 	do {
 		puts("Please enter one of the following types:");
 		for (int i = 0; i < NofTypes; i++)
-			printf("%d for %s\n", i, typeTitle[i]);
+			printf("%d for %s\n", i, typeTilte[i]);
 		scanf("%d", &t);
-		clearBuffer("");
+		getchar();
 	} while (t < 0 || t >= NofTypes);
 	return (Type)t;
 }
@@ -45,7 +40,7 @@ float getPriceFromUser()
 	{
 		puts("Please enter product's price:");
 		scanf("%f", &price);
-		clearBuffer("");
+		getchar();
 		if (price <= 0)
 			puts("The price should be above 0\n");
 		else break;
@@ -60,7 +55,7 @@ int getAmountFromUser()
 	{
 		puts("Please enter amount of the product in stock:");
 		scanf("%d", &amount);
-		clearBuffer("");
+		getchar();
 		if (amount < 0)
 			puts("The amount should be 0 or above");
 		else break;

@@ -135,20 +135,21 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="Customer.h" />
-    <ClInclude Include="Date.h" />
-    <ClInclude Include="General.h" />
-    <ClInclude Include="Product.h" />
-    <ClInclude Include="ShoppingCart.h" />
-    <ClInclude Include="ShoppingItem.h" />
+    <ClInclude Include="customer.h" />
+    <ClInclude Include="date.h" />
+    <ClInclude Include="general.h" />
+    <ClInclude Include="product.h" />
+    <ClInclude Include="shoppingCart.h" />
+    <ClInclude Include="shoppingItem.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Customer.c" />
-    <ClCompile Include="Date.c" />
-    <ClCompile Include="General.c" />
-    <ClCompile Include="Product.c" />
-    <ClCompile Include="ShoppingCart.c" />
-    <ClCompile Include="ShoppingItem.c" />
+    <ClCompile Include="customer.c" />
+    <ClCompile Include="date.c" />
+    <ClCompile Include="general.c" />
+    <ClCompile Include="main.c" />
+    <ClCompile Include="product.c" />
+    <ClCompile Include="shoppingCart.c" />
+    <ClCompile Include="shoppingItem.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

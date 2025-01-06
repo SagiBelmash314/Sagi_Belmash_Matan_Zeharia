@@ -1,5 +1,5 @@
 #pragma once
-#include "Product.h"
+#include "product.h"
 
 typedef struct {
 	char* barcode[BARCODE_LEN];
