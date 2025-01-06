@@ -1,5 +1,14 @@
+<<<<<<< HEAD
 /.vs
 /.vs/Sagi_Belmash_Matan_Zeharia/FileContentIndex
 /.vs/Sagi_Belmash_Matan_Zeharia/v17/ipch/AutoPCH/6d4741719ae9ef4a/PRODUCT.ipch
 /.vs/Sagi_Belmash_Matan_Zeharia/v17/Browse.VC.db
 /.vs/Sagi_Belmash_Matan_Zeharia/v17
+=======
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/Sagi_Belmash_Matan_Zeharia/FileContentIndex
+/.vs/Sagi_Belmash_Matan_Zeharia/v17/Browse.VC.db
+>>>>>>> Matan
